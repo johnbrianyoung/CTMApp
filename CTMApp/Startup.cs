@@ -15,6 +15,7 @@ namespace CTMApp
 {
 	public class Startup
 	{
+		//append size of FizzBuzz list at end of routing path: e.g., "https://localhost:44342/fizzbuzz/55"
 		public Startup(IConfiguration configuration)
 		{
 			Configuration = configuration;
